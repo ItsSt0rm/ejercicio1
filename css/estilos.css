@@ -1,4 +1,15 @@
 *{margin:0; padding:0;}
+
+html{
+    height: 100%;
+}
+
+body{
+    display:flex;
+    flex-direction: column;
+    height: 100%;
+}
+
 header{
     width:100%;
     background: crimson;
@@ -15,13 +26,13 @@ header{
 header .logo {
     color:white;
     font-size: 50px;
-    line-height: 200px;
+    line-height: 100px;
     float:left;
 }
 
 header nav{
     float:right;
-    line-height: 200px;
+    line-height: 100px;
 }
 
 header nav a{
@@ -41,6 +52,31 @@ header nav a:hover{
     background: black;
     border-radius:50px;
 }
+
+footer{
+    align-self: flex-end;
+    background-color:crimson;
+    line-height: 3;
+    text-align: center;
+    color:white;
+    width:100%;
+}
+
+footer .logo{
+    
+    float: left;
+}
+
+.footer-main{
+    bottom:0;
+    position:absolute;
+}
+
+
+
+
+
+
 
 
 
