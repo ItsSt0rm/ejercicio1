@@ -12,7 +12,7 @@ body{
 
 header{
     width:100%;
-    background: crimson;
+    background: #1D1E26;
     margin-bottom:20px;
 }
 
@@ -24,7 +24,7 @@ header{
 }
 
 header .logo {
-    color:white;
+    color:#8FB6BF;
     font-size: 50px;
     line-height: 100px;
     float:left;
@@ -37,7 +37,7 @@ header nav{
 
 header nav a{
     display:inline-block;
-    color:white;
+    color:#8FB6BF;
     text-decoration: none;
     padding:10px 20px;
     line-height: normal;
@@ -49,22 +49,23 @@ header nav a{
 }
 
 header nav a:hover{
-    background: black;
+    background: #687E8C;
     border-radius:50px;
 }
 
 footer{
     align-self: flex-end;
-    background-color:crimson;
+    background-color:#1D1E26;
     line-height: 3;
     text-align: center;
-    color:white;
+    color:#8FB6BF;
     width:100%;
 }
 
 footer .logo{
     
     float: left;
+    margin-left:10px;
 }
 
 .footer-main{
